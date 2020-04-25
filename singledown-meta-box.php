@@ -43,7 +43,7 @@ function singledown_down_post_boxes() {  //资源名称、资源大小、更新�
 			"capability"       => "manage_options"
 	),
 	array(
-			"name"             => "singledown_authsingledown",
+			"name"             => "singledown_author",
 			"title"            => "作者信息",
 			"desc"             => "",
 			"type"             => "text",
