@@ -58,7 +58,7 @@ function singledown_show_down($singledown_content)
     {
       $singledown_content .= '<br/>';
       $singledown_content .= '<div id="fengexuxian"></div>
-<div class="page-content-intro singledown-article" ><div class="down-url-wrap"> 
+<div class="singledown-article" ><div class="down-url-wrap"> 
 <h3 class="tit"><i class="ico"></i>下载地址</h3>'; 
 if ($singledown_baidu) {
   $singledown_baidutn .='<a href="#down" rel="nofollow" rel="nofollow" rel="nofollow" rel="nofollow" onclick="window.open(\''.plugin_dir_url( __FILE__ ).'down/baidudown.php?id='.get_the_ID().'#bddown\');return false;" class="sbtn" title=""><i class="ico"></i><i class="line"></i>百度网盘</a>';
