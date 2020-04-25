@@ -58,10 +58,8 @@ function singledown_show_down($singledown_content)
     {
       $singledown_content .= '<br/>';
       $singledown_content .= '<div id="fengexuxian"></div>
-<div class="page-content-intro main-article" ><div class="down-url-wrap"> 
+<div class="page-content-intro singledown-article" ><div class="down-url-wrap"> 
 <h3 class="tit"><i class="ico"></i>下载地址</h3>'; 
-} 
-//<a href="#down" onclick="window.open('.plugin_dir_url( __FILE__ ).'down.php?id='.get_the_ID().');return false;" class="sbtn" title="蓝奏网盘下载"><i class="ico"></i><i class="line"></i>蓝奏网盘下载</a>
 if ($singledown_baidu) {
   $singledown_baidutn .='<a href="#down" rel="nofollow" rel="nofollow" rel="nofollow" rel="nofollow" onclick="window.open(\''.plugin_dir_url( __FILE__ ).'down/baidudown.php?id='.get_the_ID().'#bddown\');return false;" class="sbtn" title=""><i class="ico"></i><i class="line"></i>百度网盘</a>';
 }if ($singledown_lanzouyun) {
@@ -75,8 +73,12 @@ if ($singledown_baidu) {
 }if ($singledown_demourl) {
    $singledown_demo .='<a href="#demo" rel="nofollow" rel="nofollow" rel="nofollow" rel="nofollow" onclick="window.open(\''.plugin_dir_url( __FILE__ ).'demo.php?id='.get_the_ID().'#demo\');return false;" class="sbtn" title=""><i class="ico"></i><i class="line"></i>在线演示</a>';
 }
-  $singledown_div .='</div> </div>';
+  $singledown_div .='</div> </div><div></div>';
   return $singledown_content.$singledown_guanfangtn.$singledown_lanzoutn.$singledown_tianyitn.$singledown_baidutn.$singledown_chengtongtn.$singledown_demo.$singledown_div;
+        
+    } 
+
+
 
 
 
