@@ -1,5 +1,6 @@
 <?php
 require_once('../../../../wp-config.php');
+require_once('../singledown.php');
 define("singledown",plugin_dir_path(__FILE__));
 $id=$_GET['id'];
 $title = get_post($id)->post_title;
