@@ -2,9 +2,9 @@
 /*
  * Plugin Name: WP-Singledown
  * Description: 这是一个全新的独立下载页面的插件，简化了前端的显示样式，独立下载页面支持图片广告和导航文字广告。
- * Author: 新逸软件
+ * Author: 云轩阁
  * Version: 1.0.1
- * Author URI:https://r.520yxl.cn/
+ * Author URI:https://www.520yxl.cn/
  * License: GPLv3 or later
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
